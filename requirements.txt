@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+PyPDF2
+python-docx
+openai
+pdfplumber
+
+
+
+
