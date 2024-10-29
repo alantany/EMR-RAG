@@ -6,7 +6,7 @@ import pandas as pd
 from typing import List, Dict
 import re
 
-st.set_page_config(page_title="电子病历AI文档系统", layout="wide")
+st.set_page_config(page_title="电子病历AI问答系统", layout="wide")
 
 def main():
     # 初始化文档存储
@@ -62,7 +62,7 @@ def main():
         "患者蒲某某的诊断符合率是多少",
         "患者蒲某某出院时情况怎么样？",
         "患者蒲某某经过治疗出院时是否有好转，具体说出那些有好转，还有哪些问题？",
-        "患者蒲某某入院检验项目白细胞数值为多少？患者复查检验项目白��胞数值为多少？",
+        "患者蒲某某入院检验项目白细胞数值为多少？患者复查检验项目白细胞数值为多少？",
         "请给出主诉有头晕症状的患者信息",
         "哪位患者检查白细胞数值高于3.12*10^9/L",
         "有几位患者有头晕症状？哪位患者海鲜过敏"
@@ -75,7 +75,7 @@ def main():
     # 主界面内容
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.title("医疗文档分析系统")
+        st.title("电子病历AI问答系统")
         
         # 创建两个标签页：文档管理和查询分析
         tab1, tab2 = st.tabs(["文档管理", "查询分析"])
